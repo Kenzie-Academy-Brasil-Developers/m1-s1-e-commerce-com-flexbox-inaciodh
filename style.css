@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0 8px;
+    font-family: 'Inter', sans-serif;
+}
+body{
+  background-color: #F5F1FD;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+  }
+  .menu {
+    padding: 30px 30px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  gap: 10px;
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-color: #4c6ef5;
+  border-radius: 4px;
+
+}
+main.itens{
+  padding: 25px;
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+main.itens2{
+  padding: 25px;
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.item{
+  background-color: #ffffff;
+}
+main.itens section.item{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+main.itens2 section.item{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+main.itens section.item img{
+  width: 270px;
+  margin-bottom: 20px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.itens2 section.item img{
+  width: 270px;
+  margin-bottom: 20px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.itens section.item p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main.itens2 section.item p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main.itens section.item span{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  
+}
+main.itens2 section.item span{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main.itens section.item button{
+    font-size: 17px;
+    background-color: #4C6EF5;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    height: 48px;
+    padding: 0 32px;
+    display: flex;
+    border-color: #4c6ef5;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main.itens2 section.item button{
+  font-size: 17px;
+  background-color: #4C6EF5;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  height: 48px;
+  padding: 0 32px;
+  display: flex;
+  border-color: #4c6ef5;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
